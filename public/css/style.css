@@ -1,0 +1,204 @@
+body {
+  padding-top: 80px; }
+
+.gmail-logo {
+  color: #D64534;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  cursor: pointer; }
+
+#js-select-all {
+  float: left;
+  margin: 20px 10px; }
+
+.glyph-style {
+  color: black; }
+  .glyph-style span {
+    font-size: 15px;
+    font-weight: bold;
+    width: 35px; }
+  .glyph-style :hover {
+    color: #D64534; }
+
+.glyph-style-collapse {
+  color: black; }
+  .glyph-style-collapse span {
+    font-size: 15px;
+    font-weight: bold;
+    width: 20px; }
+  .glyph-style-collapse :hover {
+    color: #D64534; }
+
+.navbar-toggle {
+  padding: 0;
+  margin: 5px; }
+
+.collapse-menu {
+  padding: 10px;
+  margin: 5px; }
+
+.nav > li > a {
+  padding: 0px; }
+
+.button-menu button {
+  font-weight: bold; }
+
+#spam-num, #drafts-num, #inbox-num {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 9px; }
+
+.small-button-menu {
+  padding: 0px 20px !important; }
+  .small-button-menu button {
+    font-weight: bold; }
+
+.left-nav-menu {
+  position: fixed;
+  width: 150px; }
+
+.left-nav-menu > nav > ul > li > a {
+  padding: 10px;
+  font-weight: bold; }
+
+.mail-num {
+  font-weight: bold;
+  color: black; }
+
+.table {
+  cursor: pointer; }
+
+.checkbox-check-mark {
+  width: 20px; }
+  .checkbox-check-mark input {
+    cursor: pointer; }
+
+.checkbox-star {
+  width: 20px; }
+
+.autor {
+  display: table;
+  table-layout: fixed;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 110px;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: bold; }
+  .autor span {
+    line-height: 25px;  }
+
+.mail-text {
+  font-weight: bold;
+  width: 100%; }
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+  height: 40px; }
+
+.mail-date {
+  font-size: 12px;
+  display: inline-block;
+  width: 90px; }
+
+.massege-text {
+  word-wrap: break-word; }
+
+.msgBody {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative; }
+  .msgBody ::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.2), #fff 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.2)), to(#fff));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), #fff 100%); }
+
+.text-body {
+  opacity: 0.5; }
+  .text-body a {
+    color: black;
+    pointer-events: none; }
+
+.loader {
+  border: 4px solid #f3f3f3;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border-top: 4px solid blue;
+  border-right: 4px solid green;
+  border-bottom: 4px solid red;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  -webkit-animation: spin 2s linear infinite;
+  display: inline-block;
+  float: left; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+.modal-footer {
+  vertical-align: baseline; }
+
+.sending {
+  display: inline-block;
+  margin-left: 30px;
+  font-weight: bold;
+  color: red;
+  font-size: 16px;
+  float: left;
+  vertical-align: middle; }
+
+.status-send {
+  display: block;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  margin: auto; }
+
+.js-collapse-menu a:hover {
+  text-decoration: none;
+}
+
+.js-table{
+  display: none;
+}
+
+[data-notify="progressbar"] {
+  margin-bottom: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 5px;
+}
